@@ -1,0 +1,27 @@
+.buttonText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  border-radius: 1000px;
+  background: rgba(228, 34, 156, 1);
+  color: #fff;
+  border: none;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.buttonTextDisabled {
+   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  border-radius: 1000px;
+  background: rgba(228, 34, 156, 1);
+  color: #fff;
+  border: none;
+  margin-top: 17px;
+  opacity: 0.4;
+}

@@ -1,0 +1,11 @@
+.wrapperAnswerBubble {
+    display: flex;
+    gap: 7px;
+    max-width: 278px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    li:nth-child(2),li:nth-child(5) {
+        transform: translateY(24px);
+    }
+}

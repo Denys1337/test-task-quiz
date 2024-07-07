@@ -1,0 +1,47 @@
+.ItemSingleAnswer {
+  padding: 12px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: #36173D;
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+}
+
+.horisontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 24px;
+    background: #36173D;
+    border-radius: 12px;
+    cursor: pointer;
+
+    h2 {
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 71px;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+}
